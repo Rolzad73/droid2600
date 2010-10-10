@@ -12,7 +12,7 @@ In order to do anything useful (like play games) you must transfer roms to the A
 
 The application opens to the home screen on startup: 
 
-[[image]]
+http://droid2600.googlecode.com/files/homescreen.png
 
 The home screen contains the following elements:
 
@@ -51,7 +51,7 @@ There are several methods of directional control available:
 
 The screen is divided into 3 areas:
 
-[image]
+http://droid2600.googlecode.com/files/onscreencontrols.png
 
     * Area 1 contains the on-screen d-pad. A guide is displayed in this area to show the location of the d-pad axis. Touching this section of the screen causes the virtual joystick to be moved in a direction relative to the d-pad axis. This area can be configured to occupy either the left half or the right half of the screen.
     * Area 2 is the trigger area. Touching the screen anywhere in this area causes the trigger button to be pressed. This area can be configured to occupy either the left hand or the right hand part of the screen.
