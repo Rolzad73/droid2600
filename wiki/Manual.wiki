@@ -1,4 +1,5 @@
 #summary Droid2600 manual.
+#labels Featured
 
 = Introduction =
 
