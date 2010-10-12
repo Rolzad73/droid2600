@@ -1,4 +1,5 @@
 #summary Device compatibility
+#labels Featured
 
 = Device Compatibility =
 
