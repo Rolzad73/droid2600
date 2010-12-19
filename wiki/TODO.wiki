@@ -10,3 +10,4 @@ TODO List.
 || Open directly to emulator if a ROM is already chosen || -- || ?? ||
 || Support both portrait and landscape mode || Done || v13 ||
 || Support both scaled and original aspect ratio || Done || v13 ||
+|| Update online manual || -- || v14 ||
