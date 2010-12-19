@@ -6,7 +6,7 @@ TODO List.
 = Details =
 
 || *ITEM* || *STATUS* || *EXPECTED RELEASE* ||
-|| Associate preferences per rom || Planning || ?? ||
-|| Open directly to emulator if a ROM is already chosen || Planning || ?? ||
+|| Associate preferences per rom || -- || ?? ||
+|| Open directly to emulator if a ROM is already chosen || -- || ?? ||
 || Support both portrait and landscape mode || Done || v13 ||
 || Support both scaled and original aspect ratio || Done || v13 ||
