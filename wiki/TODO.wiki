@@ -11,3 +11,5 @@ TODO List.
 || Support both portrait and landscape mode || Done || v13 ||
 || Support both scaled and original aspect ratio || Done || v13 ||
 || Update online manual || -- || v14 ||
+|| Show extended ROM info on home screen || Done || v13 ||
+|| Search sdcard for roms || -- || v14 ||
