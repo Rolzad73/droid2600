@@ -13,3 +13,4 @@ TODO List.
 || Update online manual || -- || v14 ||
 || Show extended ROM info on home screen || Done || v13 ||
 || Search sdcard for roms || -- || v14 ||
+|| Play random ROM || -- || v14 ||
