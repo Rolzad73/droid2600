@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+TODO List
 
 = Introduction =
 
@@ -14,3 +14,6 @@ TODO List.
 || Show extended ROM info on home screen || Done || v13 ||
 || Search sdcard for roms || -- || v14 ||
 || Play random ROM || -- || v14 ||
+|| Emulate keypads || -- || -- ||
+|| Map second controller || -- || -- ||
+|| Emulate paddles || -- || -- ||
