@@ -17,3 +17,4 @@ TODO List.
 || Emulate keypads || -- || -- ||
 || Map second controller || -- || -- ||
 || Emulate paddles || -- || -- ||
+|| Bug: accelerometer broken in landscape mode || -- || -- ||
