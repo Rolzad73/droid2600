@@ -3,25 +3,31 @@
 
 = Introduction =
 
-This is the online manual for the Droid2600 Atari 2600 VCS emulator. Droid2600 is an Android port, and custom front-end, for the popular Stella Atari VCS emulator.
+This is the online manual for the Droid2600 Atari 2600 VCS emulator. Droid2600 is an Android port and custom front-end, for the popular Stella Atari VCS emulator.
+
+= What is an Emulator? =
+
+In this case, an emulator is an application that allows you to run games written for the Atari 2600 on your Android device. Your Android phone doesn't have a cartridge slot (duh!), instead it plays copies of original Atari cartridges called _roms_.
+
+For a more general discussion of emulators and roms, I refer you to the following wikipedia articles on <a href="http://en.wikipedia.org/wiki/Emulator">emulation</a> and <a href="http://en.wikipedia.org/wiki/ROM_image">rom images</a>.
 
 = Getting Started = 
 
-In order to do anything useful (like play games) you must transfer roms to the Android device. It is recommended, but not required, that you choose a directory, such as "/sdcard/Droid2600", on your sdcard for storing roms. Upload roms to that directory before launching the emulator. For directions on how to load rom files, skip to the Loading_Roms section below. 
+Droid2600 is an _emulator_; before you can play games you need to transfer _game roms_ to your Android device. It is recommended, but not required, that game roms be placed in the "/sdcard/Droid2600" directory on your SD card. For directions on how to download game roms, skip to the Loading_Roms section below. 
 
 = Home Screen = 
 
-The application opens to the home screen on startup: 
+The application opens to the home screen on startup:
 
 http://droid2600.googlecode.com/files/homescreen.png
 
 The home screen contains the following elements:
 
-    * A text field showing the currently selected rom file
-    * A search button
-    * A start button
+    * A marquee showing the currently selected rom file
+    * A "Select ROM" button
+    * A "PLAY!" button
 
-The text entry field on the home screen shows the full path of the currently selected rom file. The field is not editable - to select a different rom file, click the "search" button. Once you have selected the rom you want to play, press the start button to launch the emulator. 
+The marquee the home screen shows some information about currently selected rom file - typically the original game title and the year the game was published. The field is not editable - to select a different rom file, click the "Select ROM" button. Once you have selected the game you want to play, press the "PLAY!" button to start the game.
 
 = Console Controls = 
 
