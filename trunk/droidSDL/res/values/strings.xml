@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droid800</string>
+    <string name="emulator_activity_name">Droid800 - Emulator</string>
+    <string name="sdcard_error">SD Card Error</string>
+    <string name="directory_error">Directory Error</string>
+    <string name="no_files_error">No Files</string>
+
+        <!-- Button Text -->
+    <string name="preferencesButton">Preferences</string>
+    <string name="findButton">Find Rom</string>
+    <string name="startButton">Start Emulator</string>
+    <string name="reloadPreferencesButton">Reload Default Preferences</string>
+
+    <!-- Simple strings. -->
+    <string name="skeleton_app">Skeleton App</string>
+
+    <!-- This is a complex string containing style runs. -->
+    <string name="main_label">/sdcard</string>
+
+    <!-- PREFERENCES -->
+    <string name="consolePrefs">Console Controls</string>
+    <string name="resetButtonTitle">Reset Button</string>
+    <string name="resetButtonSummary">Reset Button Summary</string>
+    <string name="resetButtonDialogTitle">Reset Button Dialog Title</string>
+
+
+    <string name="checkboxPreferenceTitle">checkboxPreferenceTitle</string>
+    <string name="checkboxPreferenceSummary">checkboxPreferenceSummary</string>
+    <string name="controlPrefs">controlPrefs</string>
+    <string name="listPreferenceTitle">listPreferenceTitle</string>
+    <string name="listPreferenceSummary">listPreferenceSummary</string>
+    <string name="listPreferencesDialogTitle">listPreferencesDialogTitle</string>
+
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>
+    
+    <string name="testButton">Test Button</string>
+</resources>

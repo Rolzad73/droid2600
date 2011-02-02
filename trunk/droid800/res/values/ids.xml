@@ -1,0 +1,19 @@
+<resources>
+<item type="id" name="edit"/>
+<item type="id" name="keymap_container"/>
+<item type="id" name="demoGLSurfaceView"/>
+<item type="id" name="testLayout"/>
+<item type="id" name="testButton"/>
+<item type="id" name="selectButtonId"/>
+<item type="id" name="droidActivityLayout"/>
+<item type="id" name="os_editor"/>
+<item type="id" name="editor"/>
+<item type="id" name="os_type"/>
+<!-- ABOUT SCREEN -->
+<item type="id" name="about_linearlayout"/>
+<item type="id" name="about_linearlayout_2"/>
+<item type="id" name="about_scrollview"/>
+<item type="id" name="about_about_textview"/>
+<item type="id" name="about_credits_stella_textview"/>
+<item type="id" name="about_credits_sdl_textview"/>
+</resources>
