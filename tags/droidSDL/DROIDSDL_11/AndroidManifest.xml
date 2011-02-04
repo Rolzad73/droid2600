@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.droid2600"
+    android:installLocation="auto"
+    android:versionCode="17"
+    android:versionName="17">
+
+    <application 
+        android:label="@string/app_name" 
+        android:icon="@drawable/droid2600_icon" 
+        android:debuggable="false">
+
+        <activity 
+           android:name="Droid2600Activity"
+           android:label="@string/app_name">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+           android:name="MainActivity"
+           android:label="@string/emulator_activity_name"
+           android:process="com.droid2600.emulator"
+           android:configChanges="orientation|keyboard|keyboardHidden">
+
+<!--
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="file" />
+                <data android:scheme="http" />
+                <data android:pathPattern=".*\\.a26" />
+                <data android:pathPattern=".*\\.A26" />
+                <data android:pathPattern=".*\\.bin" />
+                <data android:pathPattern=".*\\.BIN" />
+                <data android:pathPattern=".*\\.zip"/>
+                <data android:host="*" />
+            </intent-filter>
+-->
+
+        </activity>
+
+        <activity android:name="Droid2600Preferences">
+        </activity>
+        
+        <activity android:name="com.tvi910.android.core.AndroidFileBrowser">
+        </activity>
+
+        <activity android:name="com.droid2600.About">
+        </activity>
+
+    </application>
+    <uses-sdk android:minSdkVersion="5" android:targetSdkVersion="8"/>
+    <!-- <uses-permission android:name="android.permission.INTERNET"></uses-permission> -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>-->
+    <!-- <uses-permission android:name="android.permission.VIBRATE"></uses-permission> -->
+</manifest>
