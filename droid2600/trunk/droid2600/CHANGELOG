@@ -1,0 +1,169 @@
+## Droid2600 CHANGELOG        ##
+## format:                    ##
+## <date> [(version)] [(tag)] ##
+##     1. Change 1            ##
+##     2. Change 2 ...        ##
+
+February 1, 2011 (17) DROID2600_17
+
+    1. Removed some cruft from preferences code
+    2. Bumping for release
+
+January 31, 2011 (16.3)
+
+    1. Potential fix for force close bug when scrolling screen preferences. 
+       preferences.xml contained '%' in xml text field.
+
+January 29, 2011 (16.2) 
+
+    1. Fixed issue ID-2: Exception in Droid2600Activity on startup.
+    2. Fixed issue ID-3: Force close when launching preferences. Caused by 
+       blank summary attribute in non-US locale.
+
+January 29, 2011 (16.1)
+
+    1. Fixed screen dimming issue. 
+    2. Updated DroidSDL version from 10 to 11
+    3. Started adding support for browser/file intents
+
+January 17, 2011 (16)
+
+    1. updated SDL version to 10. 
+    2. Allow installation on external storage. 
+
+January 16, 2011 (15.1)
+
+    1. Updated SDL version to 9.1 to get improved AndroidFileBrowser
+
+January 9, 2011 (15) DROID2600_15 (retagged)
+
+    1. Removed libpng from stella, we don't need it.
+
+January 8, 2011 (15) DROID2600_15
+
+    1. Added new selection menus for virtual controllers. 
+    2. Finished virtual controller framework
+    3. Add icons to preference menu buttons
+    4. trigger support in virtual paddles
+    5. Add virtual keypad support
+    6. Removed two unecessary permissions: external storage and vibrate
+
+January 5, 2011 (14.3)
+
+    1. Started on support for VirtualController framework
+        - added menu to MainActivity
+        - switch current controller via menu
+        - refactored control selection in MainActivity
+
+January 4, 2011 (14.2)
+
+    1. Updated to use PreferenceActivityUpdateSummary.
+
+January 4, 2011
+
+    1. Updated to compile with latest sdk tools (v8)
+
+January 3, 2011
+
+    1. Started adding keypad support
+
+January 2, 2011 (14.1)
+
+    1. Updated do compile with NDK v5
+
+December 30, 2010 (14) DROID2600_14
+
+    1. Refactored ButtonPanel in MainActivity. 
+    2. Bumped version for release. 
+
+December 30, 2010 (13.2)
+
+    1. Added controller selection to emulation control panel.
+
+December 29, 2010 (13.1)
+
+    1. Modified test build script so that it does not destroy data when reinstalling. 
+    2. Added support for virtual paddle controller
+
+Decmber 23, 2010 (13) (DROID2600_13) 
+
+    1. Events no longer managed by SDLSurfaceView but in MainActivity instead.
+    2. Removed mapping for QUIT - hard coded to back key.
+    3. Confirm exit
+    4. droidsdl.version 5
+
+December 22, 2010
+    1. Added original Stella sources and a script to generate a patch
+
+December 19, 2010 
+
+    1. Add an option to preserve original screen aspect ratio.
+    2. Add an option to run in portrait or landscape mode.
+    3. Alphabetize the file browser.
+    4. Add marquee on home screen to show cart title and publish date
+        - JNI method to look up stella DefProps from java code
+        - Marquee title on home screen
+    5. Updated to use droidSDL v4.0 (ButtonPanel changes)
+    5. Use menu button to toggle button panel instead of on-screen button.
+
+Droid2600 12 December 2, 2010 DROID2600_12
+1. Emulator activity run in separate process.
+2. Refactor: Change home page; removed text edit fields and replaced with 
+   TextView and buttons.
+3. Cleaned up resources directory - removed unused items.
+
+Droid2600 11 November 14, 2010 DROID2600_11
+1. Update to use DroidSDL v3. This adds a retractable button panel and some 
+   bug fixes.
+2. Bugfix: AccelerometerJoystick would only work if onscreen controls 
+   were also enabbled.
+3. Added droidsdl version checking
+4. Set default rom directory to /sdcard/Droid2600
+
+Droid2600 1.8-1 October 24, 2010
+1. Refactor Android/SDL framework.
+
+Droid2600 1.8 September 13, 2010
+1. On screen controls
+
+Droid2600 1.7 September 5, 2010
+1. Removed unecessary code.
+2. Configure frame skipping.
+3. Volume controls active during game.
+
+Droid2600 1.6 September 2, 2010
+1. Fix bug in keymapping dialog.
+
+Droid2600 1.6 August 31, 2010
+1. Do not filter out .z26/.a26 files
+
+Droid2600 1.4 August 30, 2010
+1. Fixed key-mapping bug
+2. File browser UI improvements (bigger font, filter non-rom files)
+3. Fixed: emulator quits on keyboard slide.
+
+Droid2600 1.3 August 27, 2010
+1. Fixed bug ID2, replacing a list of key mappings with a single mapping 
+that is in the list being replaced, they mapping would fail to update. 
+2. Fixed bug ID3, layout problems on devices with smaller screens.
+3. Minor UI tweaks.
+4. Overhauled key mapping UI
+5. Added some profiling support
+6. BugID4: Emulation quits when keyboard status changes.
+
+Droid2600 1.2 August 26, 2010
+
+1. New native UI
+2. Speed improvements.
+
+Droid2600 1.1 August 17, 2010
+
+1. Support saved emulator configuration.
+2. Minor UI improvements - larger UI font and UI elements.
+3. Fixed bug ID1, accelerometer interference with GUI navigation.
+4. Added online user manual at www.droid2600.com.
+
+Droid2600 1.0 August 15, 2010
+
+   1. Initial release of Droid2600
+
