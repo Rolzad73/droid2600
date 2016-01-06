@@ -5,19 +5,22 @@
 # Build script. Options: 
 #     r build a release (clean, compile, sign)
 #     cc only compile c sources
-#     cj only compile java sources
+#     j only compile java sources
 #     t test build (compile, sign, install)
 #     i install only
 #     clean
 
 export PATH=$PATH:~/soft/android-ndk
 DROIDSDL_DIR=../droidSDL
+#DROIDSDL_DIR=../../../droidSDL/trunk/droidSDL
+
 KEYSTORE=../../droid2600.keystore
 
 function checkDroidSDLVersion() {
     REQUIRED_VERSION=`cat ./droidsdl.version`
     CHECK_STRING="android:versionName=\"$REQUIRED_VERSION\""
-    OUTPUT=`grep "$CHECK_STRING" ../droidSDL/AndroidManifest.xml`
+#    OUTPUT=`grep "$CHECK_STRING" ../droidSDL/AndroidManifest.xml`
+    OUTPUT=`grep "$CHECK_STRING" $DROIDSDL_DIR/AndroidManifest.xml`
     if [ "$OUTPUT" == "" ]; then
         echo "Requires DroidSDL v$REQUIRED_VERSION"
         echo "Check that ./droidsdl.version and ../droidSDL/AndroidManifest.xml are set correctly"
@@ -65,7 +68,8 @@ function jcompile {
     # work-around for bug in android development chain where the "libs" directory 
     # must exist in a library project folder.
     mkdir -p $DROIDSDL_DIR/libs
-    ant release 
+    #ant release 
+    ant debug 
 }
 
 function signApp {
