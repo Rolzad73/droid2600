@@ -5,3 +5,7 @@ project.properties
 # generated files
 bin/
 gen/
+jni/sdl
+jni/sdl_blitpool
+jni/sdl_main
+jni/stlport
