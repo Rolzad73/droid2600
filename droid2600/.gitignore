@@ -6,6 +6,8 @@ project.properties
 bin/
 gen/
 obj/
+libs/
+
 jni/sdl
 jni/sdl_blitpool
 jni/sdl_main
