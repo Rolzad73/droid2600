@@ -5,7 +5,7 @@
 # Build script. Options: 
 #     r build a release (clean, compile, sign)
 #     cc only compile c sources
-#     cj only compile java sources
+#     j only compile java sources
 #     t test build (compile, sign, install)
 #     i install only
 #     clean
@@ -68,7 +68,8 @@ function jcompile {
     # work-around for bug in android development chain where the "libs" directory 
     # must exist in a library project folder.
     mkdir -p $DROIDSDL_DIR/libs
-    ant release 
+    #ant release 
+    ant debug 
 }
 
 function signApp {
