@@ -1,0 +1,21 @@
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\gen\com\tvi910\android\R.java \
+ : D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable\base_button.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable\drawertab.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable\drawertab_32_ne.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable\drawertab_32_nw.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable\drawertab_32_se.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable\drawertab_32_sw.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable\drawertab_down.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable-hdpi\icon.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable-ldpi\icon.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\drawable-mdpi\icon.png \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\layout\android_file_browser.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\layout\file_row.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\layout\keymap_container.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\layout\main.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\values\arrays.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\values\colors.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\values\ids.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\values\strings.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\res\values\styles.xml \
+D:\cygwin\home\rwilson\git\droid2600\droidSDL\trunk\droidSDL\bin\AndroidManifest.xml \
