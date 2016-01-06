@@ -11,8 +11,8 @@
 #     clean
 
 export PATH=$PATH:~/soft/android-ndk
-#DROIDSDL_DIR=../droidSDL
-DROIDSDL_DIR=../../../droidSDL/trunk/droidSDL
+DROIDSDL_DIR=../droidSDL
+#DROIDSDL_DIR=../../../droidSDL/trunk/droidSDL
 
 KEYSTORE=../../droid2600.keystore
 
