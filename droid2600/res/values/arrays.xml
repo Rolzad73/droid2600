@@ -48,9 +48,9 @@
         <item>100</item>
     </string-array>
     <string-array name="skipFramesArray">
-        <item>0&#37;</item>
-        <item>25&#37;</item>
-        <item>50&#37;</item>
+        <item>0&#65285;</item>
+        <item>25&#65285;</item>
+        <item>50&#65285;</item>
     </string-array>
     <string-array name="skipFramesArrayValues">
         <item>0</item>
