@@ -59,6 +59,7 @@ import com.tvi910.mediadb.MetadataSource;
  * Droid2600Activity - main activity for the Droid2600 application.
  */
 public class Droid2600Activity extends Activity {
+    static final private String TAG = "Droid2600Activity";
 
     static final private int PREFERENCES_ID = Menu.FIRST;
     static final private int PREFERENCES_ACTIVITY_RETURN = Menu.FIRST + 3;
@@ -102,9 +103,10 @@ public class Droid2600Activity extends Activity {
 
         // if there is no rom directory, then set /sdcard/Droid2600 as 
         // the default.
+        Log.d(TAG, "romDirectory = " + romDirectory);
         if ("".equals(romDirectory)) {
             SharedPreferences.Editor editor = _preferences.edit();
-            editor.putString("romdirectory", "/sdcard/Droid2600");
+            editor.putString("romdirectory", android.os.Environment.getExternalStorageDirectory().getAbsolutePath() + File.separator + "Droid2600");
             editor.commit();
         }
 

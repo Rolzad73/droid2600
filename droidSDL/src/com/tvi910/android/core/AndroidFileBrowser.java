@@ -26,6 +26,7 @@ import android.content.SharedPreferences;
 import com.tvi910.android.R;
 
 public class AndroidFileBrowser extends ListActivity {
+    private static final String TAG = "AndroidFileBrowser";
 
     public static interface Filter {
         /**
@@ -65,6 +66,7 @@ public class AndroidFileBrowser extends ListActivity {
 
         // set up the initial directory
         String romPath = _settings.getString(DIRECTORY_KEY, "/");
+        Log.d(TAG, "romPath = " + romPath);
         currentDirectory = openRoot(romPath);
 
         // TODO: get Filter implementations from the icicle and register them.
@@ -114,14 +116,17 @@ public class AndroidFileBrowser extends ListActivity {
             try {
                 File[] files = aDirectory.listFiles();
                 if (null == files) {
+                    Log.d(TAG, "files null");
                     this.currentDirectory = ptr;
                     fill(this.currentDirectory.listFiles());
                 }
                 else {
+                    Log.d(TAG, "files are good");
                     fill(aDirectory.listFiles());
                 }
             }
             catch (Throwable e) {
+                Log.d(TAG, "exception = " + e.getMessage());
                 this.currentDirectory = ptr;
                 fill(this.currentDirectory.listFiles());
             }
